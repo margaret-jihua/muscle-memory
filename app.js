@@ -49,3 +49,19 @@ function printBool (boo){
 
 console.log(printBool(isCool));
 
+
+//////////// DOM
+
+const sectionOne = document.getElementById("section-one");
+const sectionTwo = document.getElementById("section-two");
+const sectionThree = document.querySelector("#section-three");
+const sectionFour = document.querySelector("#section-four");
+const sectionFive = document.querySelector("#section-five");
+
+console.log(sectionOne,sectionTwo,sectionThree,sectionFour,sectionFive);
+
+sectionOne.textContent = 'This is section one';
+sectionTwo.textContent = 'This is section two';
+sectionThree.textContent = 'This is section three';
+sectionFour.textContent = 'This is section four';
+sectionFive.textContent = 'This is section five';
