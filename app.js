@@ -60,8 +60,25 @@ const sectionFive = document.querySelector("#section-five");
 
 console.log(sectionOne,sectionTwo,sectionThree,sectionFour,sectionFive);
 
-sectionOne.textContent = 'This is section one';
-sectionTwo.textContent = 'This is section two';
-sectionThree.textContent = 'This is section three';
-sectionFour.textContent = 'This is section four';
-sectionFive.textContent = 'This is section five';
+sectionOne.textContent = 'Section One';
+sectionTwo.textContent = 'Section Two';
+sectionThree.textContent = 'Section Three';
+sectionFour.textContent = 'Section Four';
+sectionFive.textContent = 'Section Five';
+
+const paraOne = document.querySelector('.paragraph-one');
+paraOne.textContent = 'paragraphy 1';
+
+const paraTwo = document.querySelector('.paragraph-two');
+paraTwo.textContent = 'paragraph 2';
+
+const paraThree = document.querySelector('.paragraph-three');
+paraThree.textContent = 'paragraph 3';
+
+const paraFour = document.querySelector('.paragraph-four');
+paraFour.textContent = 'paragraph 4';
+
+const paraFive = document.querySelector('paragraph-five');
+paraFive.textContent = 'paragraph 5';
+
+
