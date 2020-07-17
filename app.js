@@ -8,3 +8,44 @@ let fruits = {
     color: ['white', 'yellow'],
     isSweeet: true
 }
+
+//1 pass array
+function getLength(array){
+    return array.length;
+}
+
+console.log(getLength(arr));
+
+//2
+function getLastItem(array){
+    return array.pop();
+}
+
+console.log(getLastItem(arr));
+
+//3 pass number
+function add(num1, num2){
+    return num1 + num2;
+}
+
+console.log(add(4, 5));
+
+//4 pass string
+function printString (string){
+    console.log(string);
+}
+
+console.log(printString(str));
+
+//5 pass object
+function printBool (boo){
+    if(boo){
+        console.log('TRUE!!');
+    }
+    else{
+        console.log('False');
+    }
+}
+
+console.log(printBool(isCool));
+
