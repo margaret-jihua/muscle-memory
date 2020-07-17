@@ -58,7 +58,7 @@ const sectionThree = document.querySelector("#section-three");
 const sectionFour = document.querySelector("#section-four");
 const sectionFive = document.querySelector("#section-five");
 
-console.log(sectionOne,sectionTwo,sectionThree,sectionFour,sectionFive);
+// console.log(sectionOne,sectionTwo,sectionThree,sectionFour,sectionFive);
 
 sectionOne.textContent = 'Section One';
 sectionTwo.textContent = 'Section Two';
@@ -78,7 +78,56 @@ paraThree.textContent = 'paragraph 3';
 const paraFour = document.querySelector('.paragraph-four');
 paraFour.textContent = 'paragraph 4';
 
-const paraFive = document.querySelector('paragraph-five');
+const paraFive = document.querySelector('.paragraph-five');
 paraFive.textContent = 'paragraph 5';
+
+//create div 6
+
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-six');
+console.log(containerSix);
+
+const sectionSix = document.createElement('h2');
+sectionSix.setAttribute('id', 'section-six');
+console.log(sectionSix);
+sectionSix.textContent = 'Section Six';
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+console.log(paraSix);
+paraSix.textContent = 'paragraph 6';
+
+///
+
+const body = document.querySelector('body');
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+////
+
+
+const newContainer = document.createElement('div');
+newContainer.classList.add('additional-container');
+console.log(newContainer);
+
+const newSection = document.createElement('h2');
+newSection.setAttribute('id', 'new-section');
+newSection.textContent = 'New Section!';
+console.log(newSection);
+
+const newPara = document.createElement('p');
+newPara.classList.add('new-paragraph');
+newPara.textContent = 'new paragraph!';
+console.log(newPara);
+
+body.appendChild(newContainer);
+newContainer.appendChild(newSection);
+newContainer.appendChild(newPara);
+
+
+
+
 
 
